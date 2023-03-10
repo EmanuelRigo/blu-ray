@@ -1,4 +1,8 @@
-- Usar metologia bem
+- Usar metologia BEM
 - Usar "em" en css
 - Login
-- 
+- Adaptables a mobiles
+- Condicionales de react (clase 4 1h5m)
+- Iconos de google (clase 4 45min)
+- Usar un select
+

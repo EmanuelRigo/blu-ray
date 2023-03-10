@@ -5,9 +5,12 @@ color gris oscuro: #212121
 color blanco: #f5f5f5
 */
 
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  font-family: "Raleway", sans-serif;
 }
 
 /*////////////////////header//////////////////////*/
@@ -63,8 +66,61 @@ ul li a:hover {
 /*//////////////////////////Main///////////////////////*/
 
 .grid-container {
-  background-color: red;
-  height: 100vh;
-  width: 100vw;
   display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  grid-gap: 20px;
+  grid-auto-rows: 340px;
+  width: 100%;
+  padding: 30px;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+/*//////////////////////cards//////////////////////*/
+
+.card {
+  width: 250px;
+  height: 340px;
+  transition: 0.5s;
+  filter: grayscale(100%) brightness(20%);
+}
+
+.card:hover {
+  transform: scale(1.03);
+  filter: none;
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: 340px;
+  transition: all o.6s ease-out;
+  border-radius: 5px;
+}
+
+.capa {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 1) 80%
+  );
+  opacity: 0;
+  color: whitesmoke;
+  visibility: hidden;
+  text-align: center;
+  transition: all 0.6s ease-out;
+  border-radius: 5px;
+}
+
+.card:hover > .capa {
+  opacity: 1;
+  visibility: visible;
+}
+.capa h3 {
+  margin-top: 140px;
 }
