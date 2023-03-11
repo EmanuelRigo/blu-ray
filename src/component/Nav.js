@@ -1,16 +1,11 @@
 function Nav() {
   return (
-    <ul>
-      <li>
-        <a href="">Somos</a>
-      </li>
-      <li>
-        <a href="">Contacto</a>
-      </li>
-      <li>
-        <a href="">Productos</a>
-      </li>
-    </ul>
+    <nav>
+      <a href="#">Somos</a>
+      <a href="#">Nosotros</a>
+      <a href="#">Productos</a>
+      <a href="#">Contacto</a>
+    </nav>
   );
 }
 

@@ -1,9 +1,9 @@
-import GridContainer from "./GridContainer";
+import FlexContainer from "./FlexContainer";
 
 function Main() {
   return (
     <main>
-      <GridContainer></GridContainer>
+      <FlexContainer></FlexContainer>
     </main>
   );
 }

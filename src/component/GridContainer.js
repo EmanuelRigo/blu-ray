@@ -7,6 +7,18 @@ function GridContainer() {
       <Card></Card>
       <Card></Card>
       <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
     </div>
   );
 }
